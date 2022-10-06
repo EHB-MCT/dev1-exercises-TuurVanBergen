@@ -48,5 +48,4 @@ function drawRectangle(){
     context.stroke();
     context.fill();
 }
-
 drawRectangle();
