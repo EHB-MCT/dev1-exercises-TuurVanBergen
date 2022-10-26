@@ -16,7 +16,7 @@ function drawRectangle() {
     context.lineTo(200,200);
     context.moveTo(50,200);
     context.lineTo(200,50)
-    context.stroke()
+    context.stroke();
 
     context.beginPath();
     context.strokeStyle="black";
@@ -26,7 +26,7 @@ function drawRectangle() {
     context.lineTo(200,200);
     context.lineTo(200,50);
     context.lineTo(50,50);
-    context.stroke()
+    context.stroke();
 }
 
 drawRectangle()
